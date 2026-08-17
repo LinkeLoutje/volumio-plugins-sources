@@ -1,0 +1,37 @@
+{
+	"name": "nfc-music",
+	"version": "1.0.0",
+	"description": "Play music with NFC tags.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "LinkeLoutje",
+	"license": "ISC",
+	"repository": "https://github.com/LinkeLoutje/volumio-plugins-sources",
+	"volumio_info": {
+		"prettyName": "NFC Music Controller",
+		"icon": "fa-child",
+		"plugin_type": "system_hardware",
+		"architectures": [
+			"amd64",
+			"armhf",
+			"i386"
+		],
+		"os": [
+			"buster"
+		],
+		"details": "Control Volumio music playback using NFC tags",
+		"changelog": "Initial release"
+	},
+	"engines": {
+		"node": ">=14 <15",
+		"volumio": ">=3.912 <4.0.0"
+	},
+	"dependencies": {
+		"axios": "^1.11.0",
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"v-conf": "^1.4.0"
+	}
+}

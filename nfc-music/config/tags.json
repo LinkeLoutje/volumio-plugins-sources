@@ -1,0 +1,82 @@
+{
+  "04A1B2C3D4": {
+    "name": "Test Spotify playlist",
+    "actions": [
+      {
+        "action": "playSpotify",
+        "uri": "spotify:playlist:37i9dQZF1DXcBWIGoYBM5M"
+      }
+    ]
+  },
+  "04A1B2C3D3": {
+    "name": "Test Spotify album",
+    "actions": [
+      {
+        "action": "playSpotify",
+        "uri": "spotify:album:1ATL5GLyefJaxhQzSPVrLX"
+      }
+    ]
+  },
+  "0000000001": {
+    "name": "Good Feeling - lokaal",
+    "actions": [
+      { 
+        "action": "playLocal", 
+        "service": "mpd", 
+        "type": "track", 
+	"uri": "music-library/NAS/Samba_Muziek/library/Dominique Fils-Aimé - Stay Tuned! (2019)/01 - Good Feeling.flac", 
+	"title": "Good Feeling", 
+	"artist": "Dominique Fils-Aimé", 
+	"album": "Stay Tuned!",
+        "trackType": "flac"
+      }
+    ]
+  },
+
+  "0000000002": {
+    "name": "Stay Tuned!",
+    "actions": [
+      {
+        "action": "playLocalAlbum",
+        "artist": "Dominique Fils-Aim\u00e9",
+        "album": "Stay Tuned!"
+      }
+    ]
+  },
+
+  "0000000003": {
+    "name": "Kinderliedjes",
+    "actions": [
+      {
+        "action": "playLocalPlaylist",
+        "name": "Kinderliedjes"
+      }
+    ]
+  },
+
+
+  "1111111111": {
+    "name": "Pause",
+    "actions": [
+      { "action": "pause" }
+    ]
+  },
+  "2222222222": {
+    "name": "Previous",
+    "actions": [
+      { "action": "previous" }
+    ]
+  },
+  "3333333333": {
+    "name": "Next",
+    "actions": [
+      { "action": "next" }
+    ]
+  },
+  "4444444444": {
+    "name": "Resume",
+    "actions": [
+      { "action": "resume" }
+    ]
+  }
+}

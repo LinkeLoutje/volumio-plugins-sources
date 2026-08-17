@@ -1,0 +1,31 @@
+{
+  "page": {
+    "label": "TRANSLATE.PLUGIN_CONFIGURATION"
+  },
+  "sections": [
+    {
+      "id": "spotify_section",
+      "element": "section",
+      "label": "Spotify",
+      "icon": "fa-spotify",
+      "content": [
+        {
+          "id": "spotify_status",
+          "element": "text",
+          "label": "Status",
+          "value": "Niet gekoppeld"
+        },
+        {
+          "id": "spotify_auth",
+          "element": "button",
+          "label": "Spotify account koppelen",
+          "onClick": {
+            "type": "controller",
+            "endpoint": "system_hardware/nfc-music",
+            "method": "startSpotifyAuth"
+          }
+        }
+      ]
+    }
+  ]
+}
